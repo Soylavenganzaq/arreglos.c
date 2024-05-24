@@ -1,0 +1,38 @@
+ #include <stdio.h>
+
+int main() {
+    int j,i;
+    int startNumber, searchNumber;
+    int found = 0;
+
+    // Llenar la matriz con números secuenciales a partir de un número dado
+    printf("Ingrese el número inicial para llenar la matriz: ");
+    scanf("%d", &startNumber);
+    
+    for (int i = 0; i < 9; i++) 
+    
+    {
+        for (int j = 0; j < 9; j++) 
+    
+    }
+
+    // Solicitar al usuario un número para buscar en la matriz
+    printf("Ingrese el número a buscar en la matriz: ");
+    scanf("%d", &searchNumber);
+
+    // Buscar el número en la matriz
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 9; j++) {
+            if ([i][j] == searchNumber) {
+                printf("Valor encontrado en la posición [%d][%d]\n", i, j);
+                found = 1;
+            }
+        }
+    }
+
+    if (!found) {
+        printf("No encontrado\n");
+    }
+
+    return 0;
+}
